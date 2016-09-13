@@ -73,7 +73,7 @@ public class Main {
             System.out.println("phương trình có hai nghiệm đó là");
             System.out.println("nghiệm đầu tiên là x1= "+x1);
             System.out.println(" nghiệm thứ 2 là x2= "+x2);
-
+            System.out.println(" Thank you so much");
 
 
 
