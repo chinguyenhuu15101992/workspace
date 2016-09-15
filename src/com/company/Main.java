@@ -98,13 +98,13 @@ public class Main {
 
             if (cate.equals("a")) {
                 int x = salary + 3000;
-                System.out.println("người thứ  nhận được lương là: " + x);
+                System.out.println("người nhân viên nhận được lương là: " + x);
             } else if (cate.equals("b")) {
                 int x = salary + 2000;
-                System.out.println("người thứ  nhận được lương là: " + x);
+                System.out.println("người nhân viên nhận được lương là: " + x);
             } else {
                 int x = salary + 1000;
-                System.out.println("người thứ  nhận được lương là: " + x);
+                System.out.println("người nhân viên nhận được lương là: " + x);
             }
 
 
