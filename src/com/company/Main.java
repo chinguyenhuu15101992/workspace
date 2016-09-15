@@ -85,5 +85,30 @@ public class Main {
 //        float
 
 
+        Scanner input = new Scanner(System.in);
+
+
+            System.out.println("nhân viên đạt loại:");
+            String cate = input.nextLine();
+            System.out.println("nhân viên mức lương là:");
+            int salary = input.nextInt();
+
+
+//            String a,b;
+
+            if (cate.equals("a")) {
+                int x = salary + 3000;
+                System.out.println("người thứ  nhận được lương là: " + x);
+            } else if (cate.equals("b")) {
+                int x = salary + 2000;
+                System.out.println("người thứ  nhận được lương là: " + x);
+            } else {
+                int x = salary + 1000;
+                System.out.println("người thứ  nhận được lương là: " + x);
+            }
+
+
+
+
     }
 }

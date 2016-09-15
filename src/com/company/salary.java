@@ -25,18 +25,17 @@ public class salary {
 
 
 //            String a,b;
-            if (cate.equals("a")) {
-                int x = salary + 3000;
-                System.out.println("người thứ " + i + " nhận được lương là: " + x);
-            }
-            if (cate.equals("b")) {
-                int x = salary + 2000;
-                System.out.println("người thứ " + i + " nhận được lương là: " + x);
-            }
-            else {
-                int x = salary + 1000;
-                System.out.println("người thứ " + i + " nhận được lương là: " + x);
-            }
+
+                if (cate.equals("a")) {
+                    int x = salary + 3000;
+                    System.out.println("người thứ " + i + " nhận được lương là: " + x);
+                } else if (cate.equals("b")) {
+                    int x = salary + 2000;
+                    System.out.println("người thứ " + i + " nhận được lương là: " + x);
+                } else {
+                    int x = salary + 1000;
+                    System.out.println("người thứ " + i + " nhận được lương là: " + x);
+                }
 
 
         }
